@@ -1,0 +1,12 @@
+[package]
+name = "slurm-spank-hello"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+eyre = "0.6.8"
+tracing = "0.1.37"
+slurm-spank-compat = { path = "../.." }
