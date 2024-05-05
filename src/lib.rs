@@ -55,8 +55,8 @@
 //!
 //! [dependencies]
 //! eyre = "0.6.8"
-//! slurm-spank = "0.3"
 //! tracing = "0.1.37"
+//! slurm-spank-compat = "0.1"
 //!```
 use lazy_static::lazy_static;
 use libc::{gid_t, pid_t, uid_t};

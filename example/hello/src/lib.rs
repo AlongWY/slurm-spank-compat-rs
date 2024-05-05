@@ -1,5 +1,5 @@
 use eyre::WrapErr;
-use slurm_spank::{
+use slurm_spank_compat::{
     spank_log_user, Context, Plugin, SpankHandle, SpankOption, SLURM_VERSION_NUMBER, SPANK_PLUGIN,
 };
 
