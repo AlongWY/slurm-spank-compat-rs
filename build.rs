@@ -3,7 +3,7 @@ use std::path::PathBuf;
 use std::process::Command;
 
 fn main() {
-    let output = Command::new("slurmd")
+    let output = Command::new("salloc")
         .arg("-V")
         .output();
 

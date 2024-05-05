@@ -4,7 +4,7 @@ exclude = ["example", "test"]
 
 [package]
 name = "slurm-spank-compat"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Yunlong Feng <ylfeng@ir.hit.edu.cn>", "Francois Diakhate <fdiakh@gmail.com>"]
 edition = "2018"
 license = "MIT OR Apache-2.0"
